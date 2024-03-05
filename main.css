@@ -1,0 +1,30 @@
+h1 {
+  /* Màu chữ */
+  color: rgb(225, 9, 9);
+  /*kiểu chữ */
+  font-style: italic;
+  /*font chữ  */
+  font-family: "Times New Roman", Times, serif;
+  /* Chuyển đổi viết hoa viết thường */
+  text-transform: uppercase;
+  /* Căn giữa */
+  text-align: center;
+  /* Cỡ chữ */
+  font-size: 28px;
+  /* Độ trong suốt */
+  opacity: 1;
+  /* Ẩn đi hẳn giống kiểu xóa đi biêns mất */
+  /* display: none; */
+}
+
+#doan_van2 {
+  color: blueviolet;
+}
+
+.demo {
+  color: blue;
+}
+
+.demo2 {
+  font-size: 40px;
+}
