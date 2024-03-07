@@ -17,14 +17,63 @@ h1 {
   /* display: none; */
 }
 
+/* Thẻ class */
 #doan_van2 {
   color: blueviolet;
 }
 
+/* Thẻ id */
 .demo {
   color: blue;
 }
 
 .demo2 {
   font-size: 40px;
+}
+
+/* Tác dụng lên khi ấn chuột qua */
+.chuot:hover {
+  color: red;
+  font-size: 30px;
+}
+
+#chuot1:hover {
+  color: brown;
+  font-size: 30px;
+}
+
+/* Tác dụng khi giữ chuột */
+.click:active {
+  color: blue;
+  font-size: 30px;
+}
+
+/* Khi chưa click vào */
+.click_1:link {
+  color: rgb(250, 10, 10);
+}
+
+/* Sau khi đã truy cập vào */
+.click_1:visited {
+  color: rgb(15, 200, 129);
+}
+
+/* Khối hộp */
+div {
+  width: 100px;
+  height: 100px;
+  color: yellow;
+  background-color: brown;
+  /* Trên - Phải - Dưới - Trái */
+  padding: 20px 30px 40px 50px;
+
+  /* padding: 20px; Tất cả 4 cạnh */
+  /* Tương tự như top left right bottom */
+
+  /* Viền ở 4 hướng và vó thể tuỳ chỉnh được như padding */
+  border: 10px solid blue;
+
+  /* Bo góc */
+  /* Trên trái phải dưới phải trái */
+  border-radius: 20px 30px 40px 50px;
 }
